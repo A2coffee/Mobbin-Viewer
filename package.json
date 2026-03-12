@@ -1,0 +1,20 @@
+{
+  "name": "mobbin-viewer-0.0.4",
+  "private": true,
+  "version": "0.0.4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./scripts/build-extension.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^25.4.0",
+    "type-fest": "^5.4.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}

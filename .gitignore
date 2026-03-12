@@ -1,0 +1,7 @@
+node_modules/
+.pnpm-store/
+tmp/
+.DS_Store
+Thumbs.db
+dist/
+release/

@@ -1,0 +1,328 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #141414;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 360px;
+  min-width: 360px;
+  background: #141414;
+}
+
+body {
+  overflow: hidden;
+}
+
+.popup-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 360px;
+  min-height: 149px;
+  padding: 24px;
+  border-radius: 24px;
+  background: #141414;
+}
+
+.panel-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.panel-copy {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.panel-title,
+.panel-subtitle,
+.message,
+.download-status-title,
+.download-status-detail {
+  margin: 0;
+}
+
+.panel-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.panel-subtitle {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.switch {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 32px;
+}
+
+.switch input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch-track {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 56px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 999px;
+  background: #141414;
+  box-shadow: inset 0 0 0 1.5px #404040;
+  transition:
+    background 0.16s ease,
+    box-shadow 0.16s ease,
+    justify-content 0.16s ease;
+}
+
+.switch-thumb {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #2e2e2e;
+  border-radius: 999px;
+  background: #282828;
+  box-shadow: 0 3px 10px rgba(16, 32, 54, 0.2);
+  transition:
+    background 0.16s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.switch:hover .switch-track {
+  background: linear-gradient(180deg, #141414 0%, #000000 100%);
+  box-shadow: inset 0 0 0 1.5px #707070;
+}
+
+.switch:hover .switch-thumb {
+  background: #2e2e2e;
+  border-color: #2e2e2e;
+}
+
+.switch input:checked + .switch-track {
+  justify-content: flex-end;
+  background: #141414;
+}
+
+.switch input:checked + .switch-track .switch-thumb {
+  background: #e6e6e6;
+  border-color: #ffffff;
+}
+
+.switch:hover input:checked + .switch-track {
+  background: linear-gradient(180deg, #000000 0%, #141414 100%);
+}
+
+.switch:hover input:checked + .switch-track .switch-thumb {
+  background: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 41px;
+  padding: 12px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #262626 0%, #2e2e2e 100%);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.message-icon,
+.download-status-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 17px;
+  height: 17px;
+  color: currentColor;
+}
+
+.message-icon svg,
+.download-status-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+.message-icon-shell {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+#status-message-text {
+  min-width: 0;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.download-section[hidden] {
+  display: none;
+}
+
+.download-divider {
+  display: flex;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.download-divider-line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, #141414 0%, #404040 50%, #141414 100%);
+}
+
+.download-status-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  min-height: 41px;
+  padding-left: 12px;
+}
+
+.download-status-copy {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.download-status-title,
+.download-status-detail {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.download-status-title {
+  overflow: hidden;
+  color: #ffffff;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.download-status-detail {
+  color: #707070;
+  line-height: 1.4;
+}
+
+.download-status-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.download-status-actions[hidden] {
+  display: none;
+}
+
+.download-action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 7.5px 12px;
+  border-radius: 999px;
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.45;
+  cursor: pointer;
+  transition:
+    background 0.16s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease,
+    transform 0.16s ease;
+  white-space: nowrap;
+}
+
+.download-action-button:hover {
+  transform: translateY(-1px);
+}
+
+.download-action-button--lv1 {
+  border: 2px solid #ffffff;
+  background: #e6e6e6;
+  color: #000000;
+}
+
+.download-action-button--lv1:hover {
+  background: #ffffff;
+  box-shadow: -8px 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.download-action-button--lv2 {
+  border: 1.5px solid #3e3f40;
+  background: #141414;
+  color: #ffffff;
+}
+
+.download-action-button--lv2:hover {
+  border-color: #707070;
+  background: #101010;
+}
+
+.message[data-tone="active"] {
+  color: #ffffff;
+}
+
+.message[data-tone="inactive"] {
+  color: #707070;
+}
+
+.message[data-tone="info"] {
+  color: #ffffff;
+}
+
+.message[data-tone="warning"] {
+  color: #ffffff;
+}
+
+.message[data-tone="error"] {
+  color: #ffffff;
+}

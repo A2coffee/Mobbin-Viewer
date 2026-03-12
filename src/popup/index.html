@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>借阅 Mobbin</title>
+  </head>
+  <body>
+    <main id="popup-shell" class="popup-shell">
+      <div class="panel-row">
+        <div class="panel-copy">
+          <h1 class="panel-title">借阅 Mobbin</h1>
+          <p class="panel-subtitle">仅在 mobbin.com 标签页生效</p>
+        </div>
+        <label class="switch" aria-label="借阅 Mobbin 开关">
+          <input id="enabled-toggle" type="checkbox" />
+          <span class="switch-track">
+            <span class="switch-thumb"></span>
+          </span>
+        </label>
+      </div>
+
+      <p id="status-message" class="message" data-tone="info" role="status" aria-live="polite">
+        <span id="status-message-icon" class="message-icon" aria-hidden="true">
+          <span class="message-icon-shell"></span>
+        </span>
+        <span id="status-message-text">正在加载插件状态...</span>
+      </p>
+
+      <section id="download-status-section" class="download-section" hidden>
+        <div class="download-divider" aria-hidden="true">
+          <span class="download-divider-line"></span>
+        </div>
+        <div id="download-status-card" class="download-status-card" role="status" aria-live="polite">
+          <span id="download-status-icon" class="download-status-icon" aria-hidden="true"></span>
+          <div class="download-status-copy">
+            <p id="download-status-title" class="download-status-title"></p>
+            <p id="download-status-detail" class="download-status-detail"></p>
+          </div>
+          <div id="download-status-actions" class="download-status-actions" hidden></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
