@@ -2,6 +2,11 @@
 
 Mobbin Viewer 是一个面向 `mobbin.com` 的 Chrome 扩展，提供去模糊浏览与批量下载能力。
 > Mobbin Viewer is a Chrome extension dedicated to mobbin.com, delivering deblurring capabilities and bulk asset extraction.
+> Warning
+
+> [!WARNING]
+> This extension is for educational purposes only. I am not responsible for any misuse, violations of terms of service, or any consequences resulting from its use. Use at your own risk.
+
 
 ## Key Features
 
