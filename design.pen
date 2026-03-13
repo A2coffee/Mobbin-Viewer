@@ -1,0 +1,2029 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "vm3mE",
+      "x": 2590,
+      "y": -953,
+      "name": "Download content_Loading",
+      "context": "打包下载的内容：正在滚动加载更多内容",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "CvAux",
+          "type": "ref",
+          "ref": "7azX6",
+          "x": 12,
+          "y": 12,
+          "name": "icon_loading",
+          "descendants": {
+            "y4vxS": {
+              "x": 0,
+              "y": 0,
+              "iconFontFamily": "feather",
+              "iconFontName": "chevrons-down"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "1UNNR",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "3gzjl",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "zyMmp",
+              "name": "panel-subtitle",
+              "context": "展示下载进度与当前下载的文件名",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "正在滚动加载更多内容 ...",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rPBuZ",
+      "x": 4385,
+      "y": -953,
+      "name": "Generate compressed package",
+      "context": "点击打包下载后，面板展示下载情况：生成压缩包",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "fh7yi",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "A6Y5G",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "OXUyp",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "8Zcxl",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "jfo22",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "3Ch9S",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "vgdMu",
+          "type": "ref",
+          "ref": "GRKOF",
+          "x": 24,
+          "y": 162,
+          "width": "fill_container",
+          "height": "fit_content"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GRKOF",
+      "x": 2590,
+      "y": -878,
+      "name": "Download content_Zip",
+      "context": "打包下载的内容：正在生成ZIP压缩包",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "IQI5r",
+          "type": "ref",
+          "ref": "7azX6",
+          "x": 12,
+          "y": 12,
+          "name": "icon_zip",
+          "descendants": {
+            "y4vxS": {
+              "x": 0,
+              "y": 0,
+              "iconFontFamily": "feather",
+              "iconFontName": "box"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "F5uRW",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "rtW21",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "xf73C",
+              "name": "panel-subtitle",
+              "context": "展示下载进度与当前下载的文件名",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "正在生成 ZIP 压缩包",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "OnZQp",
+      "x": 5518,
+      "y": -953,
+      "name": "Download progress pop-up_step1",
+      "context": "点击打包下载后，页面右上角出现进度悬浮窗-1：正在滚动加载更多内容",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "id": "OiUCq",
+          "type": "ref",
+          "ref": "vm3mE",
+          "x": 24,
+          "y": 24,
+          "width": "fill_container",
+          "height": "fit_content"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9KKwJ",
+      "x": 5518,
+      "y": -611,
+      "name": "Download progress pop-up_step4",
+      "context": "点击打包下载后，页面右上角出现进度悬浮窗-4：下载完成，且浮窗5秒后自动消失",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "id": "2zMWk",
+          "type": "ref",
+          "ref": "XdSxD",
+          "x": 24,
+          "y": 24,
+          "width": "fill_container",
+          "height": "fit_content"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fHZNd",
+      "x": 2434,
+      "y": -644,
+      "name": "button_lv2_hover",
+      "context": "悬浮态, 点击保留下载(有文件下载失败时依然生成压缩包)",
+      "reusable": true,
+      "fill": "#101010ff",
+      "cornerRadius": 24,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#707070"
+      },
+      "gap": 6,
+      "padding": [
+        7.5,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "5gnb8",
+          "name": "message-text",
+          "fill": "#ffffffff",
+          "content": "保留",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "eCxSh",
+      "x": 2360,
+      "y": -644,
+      "name": "button_lv2_normal",
+      "context": "默认态, 点击保留下载(有文件下载失败时依然生成压缩包)",
+      "reusable": true,
+      "fill": "#141414",
+      "cornerRadius": 24,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#3e3f40"
+      },
+      "gap": 6,
+      "padding": [
+        7.5,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "dNsGe",
+          "name": "message-text",
+          "fill": "#ffffffff",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#000000ff"
+          },
+          "content": "保留",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "IWrHw",
+      "x": 2285,
+      "y": -644,
+      "name": "button_lv1_hover",
+      "context": "悬浮态, 点击重试下载失败的部分",
+      "reusable": true,
+      "fill": "#ffffff",
+      "cornerRadius": 24,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#ffffff1a",
+        "offset": {
+          "x": -8,
+          "y": 4
+        },
+        "blur": 12
+      },
+      "gap": 6,
+      "padding": [
+        7.5,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "sjLy9",
+          "name": "message-text",
+          "fill": "#000000ff",
+          "content": "重试",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "mP3Sb",
+      "x": 3328,
+      "y": -953,
+      "name": "On",
+      "context": "插件开启",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "n8x6I",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "6RVs7",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "KKCWG",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "5HpOk",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dSUqk",
+      "x": 3328,
+      "y": -778,
+      "name": "Off",
+      "context": "插件关闭",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "owsrY",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "gXJrh",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "n2LVN",
+              "type": "ref",
+              "ref": "CW2ZZ",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "ZfWcU",
+          "type": "ref",
+          "ref": "J42kq",
+          "x": 24,
+          "y": 83
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Avvon",
+      "x": 3185,
+      "y": -953,
+      "name": "LOGO",
+      "context": "插件图标",
+      "clip": true,
+      "width": 100,
+      "height": 100,
+      "fill": "#FFFFFF",
+      "cornerRadius": 14,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "QszIR",
+          "x": -1,
+          "y": -1,
+          "name": "LOGO",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "image-2.png",
+            "mode": "fill"
+          },
+          "width": 102,
+          "height": 102
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 14,
+          "id": "W9LJI",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "stroke": {
+            "align": "center",
+            "thickness": 4,
+            "fill": "#141414ff"
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DZPGB",
+      "x": 3974,
+      "y": -953,
+      "name": "Downloading",
+      "context": "点击打包下载后，面板展示下载情况：下载中",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "RAw0Y",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "eks2L",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "FskSa",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "YmqSL",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "tHPa2",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "w6O1K",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "mY2qM",
+          "type": "ref",
+          "ref": "zg5g8",
+          "x": 24,
+          "y": 162
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XSdz0",
+      "x": 3974,
+      "y": -448,
+      "name": "Download failed",
+      "context": "点击打包下载后，面板展示下载情况：全部下载失败",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "2KG0o",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "qpPmu",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "EeF3B",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "NovSj",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "24coE",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "FRAuP",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "Z7mG7",
+          "type": "ref",
+          "ref": "mE6Fs",
+          "x": 24,
+          "y": 162
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Qkh3w",
+      "x": 4385,
+      "y": -448,
+      "name": "Partial download failed",
+      "context": "点击打包下载后，面板展示下载情况：部分下载失败",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "aJDMO",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "QsZB3",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "vq0PZ",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "aPKwq",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "uWf4C",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "ne1q6",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "3xDEn",
+          "type": "ref",
+          "ref": "nakMi",
+          "x": 24,
+          "y": 162
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Bhvzl",
+      "x": 4819,
+      "y": -953,
+      "name": "Download successful",
+      "context": "点击打包下载后，面板展示下载情况：下载完成",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "FJvXV",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "CtKTd",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "78trN",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "9xUGe",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "Ekj0G",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "zRHn1",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "1iW2P",
+          "type": "ref",
+          "ref": "XdSxD",
+          "x": 24,
+          "y": 162
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WINf0",
+      "x": 4819,
+      "y": -448,
+      "name": "Network error",
+      "context": "点击打包下载后，面板展示下载情况：网络异常",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Eqt0X",
+          "name": "panel-row",
+          "width": "fill_container",
+          "gap": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "6wGWl",
+              "type": "ref",
+              "ref": "TNHL9",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "MUi3S",
+              "type": "ref",
+              "ref": "HqI45",
+              "x": 256,
+              "y": 7.5
+            }
+          ]
+        },
+        {
+          "id": "I7GZK",
+          "type": "ref",
+          "ref": "5dRJB",
+          "x": 24,
+          "y": 83
+        },
+        {
+          "type": "frame",
+          "id": "Ajfcw",
+          "name": "Line",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "hd4xB",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#141414",
+                    "position": 0
+                  },
+                  {
+                    "color": "#141414",
+                    "position": 1
+                  },
+                  {
+                    "color": "#404040",
+                    "position": 0.5
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            }
+          ]
+        },
+        {
+          "id": "fgAm4",
+          "type": "ref",
+          "ref": "fSeFF",
+          "x": 24,
+          "y": 162
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HqI45",
+      "x": 2212,
+      "y": -704,
+      "name": "switch_on_normal",
+      "context": "默认态，开关开启",
+      "reusable": true,
+      "width": 56,
+      "height": 32,
+      "fill": "#141414",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#404040ff"
+      },
+      "padding": 4,
+      "justifyContent": "end",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "gYTqg",
+          "name": "switch-thumb",
+          "width": 24,
+          "height": 24,
+          "fill": "#e6e6e6",
+          "cornerRadius": 999,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2,
+            "fill": "#ffffff"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#10203633",
+            "offset": {
+              "x": 0,
+              "y": 3
+            },
+            "blur": 10
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "CW2ZZ",
+      "x": 2357,
+      "y": -704,
+      "name": "switch_off_normal",
+      "context": "默认态，开关关闭",
+      "reusable": true,
+      "width": 56,
+      "height": 32,
+      "fill": "#141414",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#404040ff"
+      },
+      "padding": 4,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QAgGC",
+          "name": "switch-thumb",
+          "width": 24,
+          "height": 24,
+          "fill": "#282828ff",
+          "cornerRadius": 999,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2,
+            "fill": "#2e2e2e"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#10203633",
+            "offset": {
+              "x": 0,
+              "y": 3
+            },
+            "blur": 10
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TNHL9",
+      "x": 2212,
+      "y": -801,
+      "name": "title",
+      "context": "插件的名称与说明",
+      "reusable": true,
+      "width": "fill_container(256)",
+      "layout": "vertical",
+      "gap": 6,
+      "children": [
+        {
+          "type": "text",
+          "id": "5dGT4",
+          "name": "panel-title",
+          "fill": "#ffffffff",
+          "content": "借阅 Mobbin",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "YKAJC",
+          "name": "panel-subtitle",
+          "fill": "#707070",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "仅在 mobbin.com 标签页生效",
+          "lineHeight": 1.4,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5dRJB",
+      "x": 2212,
+      "y": -564,
+      "name": "message success",
+      "context": "插件开启时展示",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "fill": "#262626ff",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": 12,
+      "children": [
+        {
+          "id": "SQ34e",
+          "type": "ref",
+          "ref": "hZXvK",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "text",
+          "id": "ZDjWE",
+          "name": "message-text",
+          "fill": "#ffffffff",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "查看器已启用。打开 Mobbin 即可正常浏览",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "J42kq",
+      "x": 2212,
+      "y": -499,
+      "name": "message failed",
+      "context": "插件关闭时展示",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "fill": "#262626ff",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": 12,
+      "children": [
+        {
+          "id": "zvibP",
+          "type": "ref",
+          "ref": "0WLHm",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "text",
+          "id": "s16Co",
+          "name": "message-text",
+          "fill": "#707070",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "查看器已关闭",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hZXvK",
+      "x": 2152,
+      "y": -801,
+      "name": "icon_on",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "6hFE7",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "zap",
+          "iconFontFamily": "feather",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "0WLHm",
+      "x": 2152,
+      "y": -771,
+      "name": "icon_off",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "SBAOA",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "zap-off",
+          "iconFontFamily": "feather",
+          "fill": "#707070"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cZnSj",
+      "x": 2126,
+      "y": -769,
+      "name": "icon_zip_downloading",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "gth2S",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "download-cloud",
+          "iconFontFamily": "feather",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zg5g8",
+      "x": 2590,
+      "y": -801,
+      "name": "Download content_Downloading",
+      "context": "打包下载的内容：下载中",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "UwYdU",
+          "type": "ref",
+          "ref": "cZnSj",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "frame",
+          "id": "FbZ3m",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "rKaf5",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "ufuZL",
+              "name": "panel-subtitle",
+              "context": "展示下载进度与当前下载的文件名",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "正在下载  31 / 32  :  screen_031.mp4",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "mE6Fs",
+      "x": 2590,
+      "y": -725,
+      "name": "Download content_Download failed",
+      "context": "打包下载的内容：全部下载失败",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "WAoN7",
+          "type": "ref",
+          "ref": "pPjEO",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "frame",
+          "id": "I5G4g",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "G5QXq",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "FPpHf",
+              "name": "panel-subtitle",
+              "context": "展示下载结果",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "下载失败  失败 32 个",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "7oi5J",
+          "type": "ref",
+          "ref": "JGZdw",
+          "x": 279,
+          "y": 4.5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JGZdw",
+      "x": 2215,
+      "y": -644,
+      "name": "button_lv1_normal",
+      "context": "默认态, 点击重试下载失败的部分",
+      "reusable": true,
+      "fill": "#e6e6e6",
+      "cornerRadius": 24,
+      "stroke": {
+        "align": "inside",
+        "thickness": 2,
+        "fill": "#ffffff"
+      },
+      "gap": 6,
+      "padding": [
+        7.5,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "jqxJx",
+          "name": "message-text",
+          "fill": "#000000ff",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#000000ff"
+          },
+          "content": "重试",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "U8dYH",
+      "x": 2282,
+      "y": -704,
+      "name": "switch_on_hover",
+      "context": "悬浮态，开关开启",
+      "reusable": true,
+      "width": 56,
+      "height": 32,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 90,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#000000",
+            "position": 0
+          },
+          {
+            "color": "#141414",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#707070"
+      },
+      "padding": 4,
+      "justifyContent": "end",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dIXRN",
+          "name": "switch-thumb",
+          "width": 24,
+          "height": 24,
+          "fill": "#ffffff",
+          "cornerRadius": 999,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2,
+            "fill": "#ffffff"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#ffffff33",
+            "offset": {
+              "x": 0,
+              "y": 3
+            },
+            "blur": 10
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7WZfp",
+      "x": 2431,
+      "y": -704,
+      "name": "switch_off_hover",
+      "context": "悬浮态，开关关闭",
+      "reusable": true,
+      "width": 56,
+      "height": 32,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 90,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#000000",
+            "position": 1
+          },
+          {
+            "color": "#141414",
+            "position": 0
+          }
+        ]
+      },
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "outside",
+        "thickness": 1.5,
+        "fill": "#707070"
+      },
+      "padding": 4,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fGvcP",
+          "name": "switch-thumb",
+          "width": 24,
+          "height": 24,
+          "fill": "#2e2e2e",
+          "cornerRadius": 999,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2,
+            "fill": "#2e2e2e"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#10203633",
+            "offset": {
+              "x": 0,
+              "y": 3
+            },
+            "blur": 10
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nakMi",
+      "x": 2590,
+      "y": -646,
+      "name": "Download content_Partial download failed",
+      "context": "打包下载的内容：部分下载失败",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "xHnqO",
+          "type": "ref",
+          "ref": "pPjEO",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "frame",
+          "id": "pY3cD",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "D5EIS",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "2KIGv",
+              "name": "panel-subtitle",
+              "context": "展示下载结果",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "下载失败  31 成功  1 失败",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "dN2Kl",
+          "type": "ref",
+          "ref": "eCxSh",
+          "x": 218,
+          "y": 4.5
+        },
+        {
+          "id": "iZU9t",
+          "type": "ref",
+          "ref": "JGZdw",
+          "x": 279,
+          "y": 4.5,
+          "context": "默认态, 点击重试下载失败的部分"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XdSxD",
+      "x": 2590,
+      "y": -567,
+      "name": "Download content_Download successful",
+      "context": "打包下载的内容：下载完成",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "B2V1u",
+          "type": "ref",
+          "ref": "7azX6",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "frame",
+          "id": "YhjZe",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "33Jgz",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "GCAoh",
+              "name": "panel-subtitle",
+              "context": "展示下载结果",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "下载完成  成功 32 个",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "qC3Xh",
+          "type": "ref",
+          "ref": "JGZdw",
+          "x": 279,
+          "y": 4.5,
+          "descendants": {
+            "jqxJx": {
+              "content": "查看"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fSeFF",
+      "x": 2590,
+      "y": -493,
+      "name": "Download content_Network error",
+      "context": "打包下载的内容：网络异常",
+      "reusable": true,
+      "width": "fill_container(328)",
+      "cornerRadius": 12,
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "zD2Fb",
+          "type": "ref",
+          "ref": "JdH91",
+          "x": 12,
+          "y": 12
+        },
+        {
+          "type": "frame",
+          "id": "5dsQE",
+          "name": "panel-copy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "id": "xNBbG",
+              "type": "ref",
+              "ref": "NPGVj",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "id": "IVSrb",
+              "name": "panel-subtitle",
+              "context": "展示下载结果",
+              "fill": "#707070",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "网络异常  无法下载",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "PbtMj",
+          "type": "ref",
+          "ref": "JGZdw",
+          "x": 279,
+          "y": 4.5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pPjEO",
+      "x": 2126,
+      "y": -739,
+      "name": "icon_zip_failed",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "iujc3",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "cloud-off",
+          "iconFontFamily": "feather",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JdH91",
+      "x": 2126,
+      "y": -711,
+      "name": "icon_zip_network error",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "RjgbT",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "wifi-off",
+          "iconFontFamily": "feather",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7azX6",
+      "x": 2126,
+      "y": -801,
+      "name": "icon_zip_successful",
+      "reusable": true,
+      "clip": true,
+      "width": 17,
+      "height": 17,
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "y4vxS",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17,
+          "iconFontName": "check-circle",
+          "iconFontFamily": "feather",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "NPGVj",
+      "x": 2215,
+      "y": -870,
+      "name": "message-text",
+      "context": "打包下载所下载的具体文件名称",
+      "reusable": true,
+      "fill": "#ffffffff",
+      "textGrowth": "fixed-width",
+      "width": "fill_container(238)",
+      "content": "mobbin_screens.zip",
+      "lineHeight": 1.45,
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "FOzkV",
+      "x": 5518,
+      "y": -840,
+      "name": "Download progress pop-up_step2",
+      "context": "点击打包下载后，页面右上角出现进度悬浮窗-2：下载中",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "id": "zCvyh",
+          "type": "ref",
+          "ref": "zg5g8",
+          "x": 24,
+          "y": 24,
+          "width": "fill_container",
+          "height": "fit_content"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HfXSx",
+      "x": 5518,
+      "y": -726,
+      "name": "Download progress pop-up_step3",
+      "context": "点击打包下载后，页面右上角出现进度悬浮窗-3：生成压缩包",
+      "clip": true,
+      "width": 360,
+      "fill": "#141414ff",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 12,
+      "padding": 24,
+      "children": [
+        {
+          "id": "63Lak",
+          "type": "ref",
+          "ref": "GRKOF",
+          "x": 24,
+          "y": 24,
+          "width": "fill_container",
+          "height": "fit_content"
+        }
+      ]
+    },
+    {
+      "id": "mvHFR",
+      "type": "ref",
+      "ref": "7azX6",
+      "x": 2099,
+      "y": -801,
+      "name": "icon_zip",
+      "descendants": {
+        "y4vxS": {
+          "x": 0,
+          "y": 0,
+          "iconFontFamily": "feather",
+          "iconFontName": "box",
+          "width": "fill_container(17)",
+          "height": "fill_container(17)"
+        }
+      }
+    },
+    {
+      "id": "3MczX",
+      "type": "ref",
+      "ref": "7azX6",
+      "x": 2099,
+      "y": -771,
+      "name": "icon_loading",
+      "descendants": {
+        "y4vxS": {
+          "x": 0,
+          "y": 0,
+          "iconFontFamily": "feather",
+          "iconFontName": "chevrons-down"
+        }
+      }
+    }
+  ]
+}
