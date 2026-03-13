@@ -1,17 +1,14 @@
 # Mobbin Viewer
 
-Mobbin Viewer 是一个面向 `mobbin.com` 的 Chrome 扩展，提供去模糊浏览、全屏查看与批量下载能力。
+Mobbin Viewer 是一个面向 `mobbin.com` 的 Chrome 扩展，提供去模糊浏览与批量下载能力。
+> Mobbin Viewer is a Chrome extension dedicated to mobbin.com, delivering deblurring capabilities and bulk asset extraction.
 
-## 功能说明
+## Key Features
+
 - 去除 Mobbin 页面素材的模糊遮罩，恢复正常浏览体验。
-- 为图片与视频素材提供全屏查看入口。
-- 支持批量下载当前页面素材，并在下载过程中显示状态、失败重试与保留已成功项目。
-- 在插件弹出面板内同步当前标签页的下载状态，并支持直接打开默认下载目录。
+> Visual Restoration: Removes blur masks from Mobbin page assets to restore a seamless browsing experience.
+- 支持批量下载当前页面素材。
+> Bulk Download: Enables batch exporting of all assets from the current page.
+<br>
 
-## 本地开发
-```powershell
-pnpm install
-pnpm build
-```
-
-构建完成后，Chrome 扩展产物位于 `dist/` 目录。可在 Chrome 的“开发者模式”下通过“加载已解压的扩展程序”加载该目录。
+![Function demonstration](https://github.com/A2coffee/Mobbin-Viewer/blob/main/Function%20demonstration.png?raw=true "Function demonstration")
