@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Mobbin 查看器",
   "description": "为 Mobbin 提供去模糊、全屏查看、复制素材和批量下载功能。",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icons": {
     "32": "mobbin-helper-icon-32.png",
     "72": "mobbin-helper-icon-72.png",

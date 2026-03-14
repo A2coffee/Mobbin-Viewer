@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -6,16 +6,63 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>借阅 Mobbin</title>
+    <title>借阅 mobbin.com</title>
   </head>
   <body>
     <main id="popup-shell" class="popup-shell">
       <div class="panel-row">
         <div class="panel-copy">
-          <h1 class="panel-title">借阅 Mobbin</h1>
-          <p class="panel-subtitle">仅在 mobbin.com 标签页生效</p>
+          <h1 id="panel-title" class="panel-title">借阅 mobbin.com</h1>
+          <div class="panel-meta" aria-label="扩展信息">
+            <span id="panel-version" class="panel-meta-text panel-meta-text--label">v0.0.5</span>
+            <a
+              id="updates-link"
+              class="panel-meta-link"
+              href="https://github.com/A2coffee/Mobbin-Viewer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              获取更新
+            </a>
+            <span class="panel-meta-divider" aria-hidden="true"></span>
+            <span class="panel-meta-item">
+              <span class="panel-meta-text panel-meta-text--label">作者</span>
+              <span
+                id="author-trigger-wrap"
+                class="author-trigger-wrap"
+                data-popover-open="false"
+                data-popover-align="center"
+              >
+                <a
+                  id="author-link"
+                  class="panel-meta-link"
+                  href="http://xhslink.com/m/nAWAkR5YKB"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @A2coffee
+                </a>
+                <div
+                  id="author-popover"
+                  class="author-popover"
+                  role="tooltip"
+                  aria-hidden="true"
+                  hidden
+                >
+                  <span class="author-popover-qr-shell">
+                    <img
+                      class="author-popover-qr"
+                      src="./author-qr.svg"
+                      alt="A2coffee 作者主页二维码"
+                    />
+                  </span>
+                  <p class="author-popover-copy">小红书扫码访问作者主页</p>
+                </div>
+              </span>
+            </span>
+          </div>
         </div>
-        <label class="switch" aria-label="借阅 Mobbin 开关">
+        <label class="switch" aria-label="借阅 mobbin.com 开关">
           <input id="enabled-toggle" type="checkbox" />
           <span class="switch-track">
             <span class="switch-thumb"></span>

@@ -56,12 +56,19 @@ export function normalizeDownloadImageUrl(url: string): string {
 
   try {
     const parsed = new URL(url);
+    const hasWatermark = parsed.searchParams.has('image');
     parsed.searchParams.set('f', 'png');
     parsed.searchParams.set('w', '1920');
-    parsed.searchParams.set('q', '100');
-    parsed.searchParams.set('gravity', 'bottom');
-    parsed.searchParams.delete('fit');
-    parsed.searchParams.delete('extend-bottom');
+
+    if (!parsed.searchParams.has('q')) {
+      parsed.searchParams.set('q', '100');
+    }
+
+    // Bytescale rejects some image requests when gravity is set without watermark params.
+    if (!hasWatermark) {
+      parsed.searchParams.delete('gravity');
+    }
+
     return parsed.toString();
   } catch {
     return url;

@@ -6,7 +6,6 @@ import iconZipFailedSvg from '../shared/icons/icon_zip_failed.svg?raw';
 import iconZipNetworkErrorSvg from '../shared/icons/icon_zip_network error.svg?raw';
 import iconZipSuccessfulSvg from '../shared/icons/icon_zip_successful.svg?raw';
 import iconZipSvg from '../shared/icons/icon_zip.svg?raw';
-import { EXTENSION_NAME } from '../shared/constants';
 import {
   isValidDownloadStatusSnapshot,
   type DownloadStatusAction,
@@ -30,6 +29,12 @@ import {
 import { isMobbinUrl } from '../shared/url';
 
 type MessageTone = 'active' | 'inactive' | 'info' | 'warning' | 'error';
+type PopoverAlignment = 'center' | 'start' | 'end';
+
+const POPUP_TITLE = '借阅 mobbin.com';
+const GET_UPDATES_URL = 'https://github.com/A2coffee/Mobbin-Viewer';
+const AUTHOR_URL = 'http://xhslink.com/m/nAWAkR5YKB';
+const AUTHOR_POPOVER_MARGIN = 8;
 
 const downloadStatusIconMap: Record<DownloadStatusVariant, string> = {
   scrolling: iconLoadingSvg,
@@ -94,8 +99,125 @@ async function getActiveMobbinTab(): Promise<chrome.tabs.Tab | null> {
   return activeTab;
 }
 
+async function getActiveMobbinTabId(): Promise<number | null> {
+  const activeMobbinTab = await getActiveMobbinTab();
+  return activeMobbinTab?.id ?? null;
+}
+
 function getMessageIcon(tone: MessageTone): string {
   return tone === 'inactive' ? iconOffSvg : iconOnSvg;
+}
+
+function openExternalLink(url: string): void {
+  void chrome.tabs.create({ url });
+}
+
+function updateTitleMetadata(): void {
+  const title = getRequiredElement('panel-title', HTMLElement);
+  const version = getRequiredElement('panel-version', HTMLSpanElement);
+
+  title.textContent = POPUP_TITLE;
+  version.textContent = `v${chrome.runtime.getManifest().version}`;
+}
+
+function updateAuthorPopoverAlignment(): void {
+  const shell = getRequiredElement('popup-shell', HTMLElement);
+  const wrapper = getRequiredElement('author-trigger-wrap', HTMLSpanElement);
+  const popover = getRequiredElement('author-popover', HTMLDivElement);
+
+  wrapper.dataset.popoverAlign = 'center';
+
+  const shellRect = shell.getBoundingClientRect();
+  const popoverRect = popover.getBoundingClientRect();
+  let alignment: PopoverAlignment = 'center';
+
+  if (popoverRect.right > shellRect.right - AUTHOR_POPOVER_MARGIN) {
+    alignment = 'end';
+  } else if (popoverRect.left < shellRect.left + AUTHOR_POPOVER_MARGIN) {
+    alignment = 'start';
+  }
+
+  wrapper.dataset.popoverAlign = alignment;
+}
+
+function setAuthorPopoverVisible(visible: boolean): void {
+  const wrapper = getRequiredElement('author-trigger-wrap', HTMLSpanElement);
+  const popover = getRequiredElement('author-popover', HTMLDivElement);
+
+  wrapper.dataset.popoverOpen = String(visible);
+  popover.hidden = !visible;
+  popover.setAttribute('aria-hidden', String(!visible));
+
+  if (!visible) {
+    wrapper.dataset.popoverAlign = 'center';
+    return;
+  }
+
+  window.requestAnimationFrame(() => {
+    if (!popover.hidden) {
+      updateAuthorPopoverAlignment();
+    }
+  });
+}
+
+function initializeAuthorPopover(): void {
+  const wrapper = getRequiredElement('author-trigger-wrap', HTMLSpanElement);
+  const authorLink = getRequiredElement('author-link', HTMLAnchorElement);
+  const popover = getRequiredElement('author-popover', HTMLDivElement);
+
+  const openPopover = (): void => {
+    setAuthorPopoverVisible(true);
+  };
+
+  const closePopoverIfInactive = (): void => {
+    window.setTimeout(() => {
+      if (wrapper.matches(':hover') || wrapper.matches(':focus-within')) {
+        return;
+      }
+
+      setAuthorPopoverVisible(false);
+    }, 0);
+  };
+
+  authorLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    openExternalLink(AUTHOR_URL);
+  });
+
+  wrapper.addEventListener('mouseenter', openPopover);
+  wrapper.addEventListener('mouseleave', closePopoverIfInactive);
+  popover.addEventListener('mouseenter', openPopover);
+  popover.addEventListener('mouseleave', closePopoverIfInactive);
+  authorLink.addEventListener('focus', openPopover);
+  authorLink.addEventListener('blur', closePopoverIfInactive);
+
+  wrapper.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') {
+      return;
+    }
+
+    event.preventDefault();
+    setAuthorPopoverVisible(false);
+    authorLink.blur();
+  });
+
+  window.addEventListener('resize', () => {
+    if (!popover.hidden) {
+      updateAuthorPopoverAlignment();
+    }
+  });
+}
+
+function initializeTitleActions(): void {
+  updateTitleMetadata();
+  initializeAuthorPopover();
+
+  const updatesLink = getRequiredElement('updates-link', HTMLAnchorElement);
+
+  updatesLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    openExternalLink(GET_UPDATES_URL);
+  });
 }
 
 function setMessage(text: string, tone: MessageTone): void {
@@ -272,31 +394,60 @@ async function handleDownloadAction(action: DownloadStatusAction): Promise<void>
 }
 
 export async function initializePopup(): Promise<void> {
-  document.title = EXTENSION_NAME;
+  document.title = POPUP_TITLE;
+  initializeTitleActions();
 
   const toggle = getRequiredElement('enabled-toggle', HTMLInputElement);
   const enabled = await getEnabled();
   const steadyState = getSteadyStateMessage(enabled);
-  const activeMobbinTab = await getActiveMobbinTab();
+  let activeMobbinTabId = await getActiveMobbinTabId();
+
+  const refreshDownloadStatus = async (): Promise<void> => {
+    activeMobbinTabId = await getActiveMobbinTabId();
+    renderDownloadStatus(
+      activeMobbinTabId ? await getDownloadStateForTab(activeMobbinTabId) : null,
+      handleDownloadAction,
+    );
+  };
 
   toggle.checked = enabled;
   setMessage(steadyState.text, steadyState.tone);
-  renderDownloadStatus(
-    activeMobbinTab?.id ? await getDownloadStateForTab(activeMobbinTab.id) : null,
-    handleDownloadAction,
-  );
+  await refreshDownloadStatus();
 
   const unwatchDownloadStates = watchDownloadStates((states) => {
-    if (!activeMobbinTab?.id) {
-      clearDownloadStatus();
+    if (!activeMobbinTabId) {
+      void refreshDownloadStatus();
       return;
     }
 
-    renderDownloadStatus(states[String(activeMobbinTab.id)] ?? null, handleDownloadAction);
+    renderDownloadStatus(states[String(activeMobbinTabId)] ?? null, handleDownloadAction);
   });
+
+  const refreshDownloadStatusForActiveTab = (): void => {
+    void refreshDownloadStatus();
+  };
+
+  const handleActivated = (): void => {
+    refreshDownloadStatusForActiveTab();
+  };
+
+  const handleUpdated = (tabId: number, changeInfo: chrome.tabs.TabChangeInfo): void => {
+    if (!activeMobbinTabId || tabId !== activeMobbinTabId) {
+      return;
+    }
+
+    if ('status' in changeInfo || 'url' in changeInfo) {
+      refreshDownloadStatusForActiveTab();
+    }
+  };
+
+  chrome.tabs.onActivated.addListener(handleActivated);
+  chrome.tabs.onUpdated.addListener(handleUpdated);
 
   window.addEventListener('unload', () => {
     unwatchDownloadStates();
+    chrome.tabs.onActivated.removeListener(handleActivated);
+    chrome.tabs.onUpdated.removeListener(handleUpdated);
   });
 
   toggle.addEventListener('change', async () => {

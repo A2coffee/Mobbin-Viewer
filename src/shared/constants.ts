@@ -2,6 +2,7 @@ export const EXTENSION_NAME = '借阅 Mobbin';
 export const ENABLED_STORAGE_KEY = 'mobbin_viewer_enabled';
 export const DOWNLOAD_STATES_STORAGE_KEY = 'mobbin_viewer_download_states';
 export const DOWNLOAD_STATUS_FILENAME = 'mobbin_screens.zip';
+export const DOWNLOAD_REPORT_FILENAME = 'mobbin_screens.report.json';
 
 export const LEGACY_STORAGE_KEYS = [
   'mobbin_helper_enabled',

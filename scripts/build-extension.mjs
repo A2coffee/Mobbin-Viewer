@@ -1,14 +1,15 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-import { build } from 'vite';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 const distDir = path.resolve(projectRoot, 'dist');
 const popupRoot = path.resolve(projectRoot, 'src/popup');
+const { build } = await import(
+  pathToFileURL(path.resolve(projectRoot, 'node_modules/vite/dist/node/index.js')).href
+);
 
 async function renameIfExists(fromName, toName) {
   const fromPath = path.resolve(distDir, fromName);
