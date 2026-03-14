@@ -1,7 +1,15 @@
+# Dependencies
 node_modules/
 .pnpm-store/
+
+# Local planning and scratch files
+docs/plans/
 tmp/
-.DS_Store
-Thumbs.db
+
+# Build and release artifacts
 dist/
 release/
+
+# OS files
+.DS_Store
+Thumbs.db

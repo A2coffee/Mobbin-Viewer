@@ -1,5 +1,0 @@
-- [x] 读取设计稿并确认 popup 标题区、作者交互与 LOGO 资源范围
-- [x] 重构 popup 顶部结构，补齐版本号、Get Updates 与 Author 展示
-- [x] 实现仅 `@A2coffee` 触发的二维码 Popover 与外链跳转
-- [x] 固化作者二维码 SVG，并替换插件图标资源
-- [x] 运行构建验证并回填本计划文档状态
