@@ -1,0 +1,181 @@
+- generic [active] [ref=f114e1]:
+  - alert [ref=f114e2]
+  - generic [ref=f114e3]:
+    - banner [ref=f114e4]:
+      - navigation "Main" [ref=f114e5]:
+        - generic [ref=f114e7]:
+          - generic [ref=f114e8]:
+            - link "Mobbin" [ref=f114e9] [cursor=pointer]:
+              - /url: /discover/apps/ios/latest
+              - img "Mobbin"
+            - generic [ref=f114e11]:
+              - link "Apps" [ref=f114e13] [cursor=pointer]:
+                - /url: /discover/apps/ios/latest
+              - link "Sites" [ref=f114e14] [cursor=pointer]:
+                - /url: /discover/sites/latest
+          - generic [ref=f114e16]:
+            - button "Search on iOS..." [ref=f114e17] [cursor=pointer]
+            - button "Visual search" [ref=f114e23] [cursor=pointer]
+          - generic [ref=f114e31]:
+            - generic [ref=f114e32]:
+              - link "Saved" [ref=f114e36] [cursor=pointer]:
+                - /url: /saved/mobile/screens
+              - link "Community" [ref=f114e41] [cursor=pointer]:
+                - /url: /community/mobile/featured
+              - button "Notifications" [ref=f114e45] [cursor=pointer]
+            - button "Get Pro" [ref=f114e50] [cursor=pointer]
+            - button "Menu" [ref=f114e53] [cursor=pointer]:
+              - img "Avatar of zhaolvs" [ref=f114e56]
+    - main [ref=f114e57]:
+      - generic [ref=f114e58]:
+        - generic [ref=f114e59]:
+          - generic [ref=f114e60]:
+            - img "Oura logo" [ref=f114e64]
+            - heading "Oura — Smart ring for fitness, stress, sleep & health" [level=1] [ref=f114e65]:
+              - text: Oura
+              - generic [ref=f114e66]:
+                - text: —
+                - generic [ref=f114e67]: Smart ring for fitness, stress, sleep & health
+            - complementary [ref=f114e68]:
+              - generic [ref=f114e69]:
+                - generic [ref=f114e70]: PRO
+                - generic [ref=f114e71]:
+                  - text: Upgrade for full access to Oura and 1,000 other apps and sites —
+                  - button "Get Pro" [ref=f114e72] [cursor=pointer]
+            - generic [ref=f114e73]:
+              - generic [ref=f114e74]:
+                - paragraph [ref=f114e75]: Platform
+                - generic [ref=f114e76]:
+                  - link "iOS" [ref=f114e77] [cursor=pointer]:
+                    - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/_/screens
+                  - text: ","
+                  - link "Android" [ref=f114e78] [cursor=pointer]:
+                    - /url: /apps/oura-android-de2301f2-7120-4098-96d7-b074a8a9a5e7/_/screens
+              - generic [ref=f114e79]:
+                - paragraph [ref=f114e80]: Rating
+                - button [ref=f114e81] [cursor=pointer]
+              - generic [ref=f114e93]:
+                - paragraph [ref=f114e94]: Category
+                - list [ref=f114e96]:
+                  - listitem [ref=f114e97]:
+                    - link "Health & Fitness" [ref=f114e98] [cursor=pointer]:
+                      - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Health+%26+Fitness
+            - generic [ref=f114e99]:
+              - button "Save" [ref=f114e101] [cursor=pointer]
+              - button "More actions" [ref=f114e105] [cursor=pointer]
+          - list [ref=f114e128]:
+            - listitem [ref=f114e129]
+            - listitem [ref=f114e131]
+            - listitem [ref=f114e133]
+            - listitem [ref=f114e135]
+            - listitem [ref=f114e137]
+            - listitem [ref=f114e139]
+            - listitem [ref=f114e141]
+            - listitem [ref=f114e143]
+            - listitem [ref=f114e145]
+            - listitem [ref=f114e147]
+        - generic [ref=f114e149]:
+          - heading "More like Oura" [level=2] [ref=f114e150]
+          - list [ref=f114e152]:
+            - listitem [ref=f114e153]:
+              - link "pushr" [ref=f114e154] [cursor=pointer]:
+                - /url: /apps/pushr-ios-b9fbf2d1-5e5d-4c38-b77d-2f22efb506be/057a254e-7368-4961-ad06-c5cc18c95928/screens
+              - link [ref=f114e155] [cursor=pointer]:
+                - /url: /apps/pushr-ios-b9fbf2d1-5e5d-4c38-b77d-2f22efb506be/057a254e-7368-4961-ad06-c5cc18c95928/screens
+                - button "Play video" [ref=f114e160]
+              - generic:
+                - generic:
+                  - img "pushr logo"
+                - generic:
+                  - heading "pushr" [level=3]
+                  - paragraph: Push-up workouts
+            - listitem [ref=f114e166]:
+              - link "Strava" [ref=f114e167] [cursor=pointer]:
+                - /url: /apps/strava-ios-1ac190cf-46ee-4c65-845d-38bb8354219d/0581b139-5dc9-492d-89ad-da56951a027b/screens
+              - link [ref=f114e168] [cursor=pointer]:
+                - /url: /apps/strava-ios-1ac190cf-46ee-4c65-845d-38bb8354219d/0581b139-5dc9-492d-89ad-da56951a027b/screens
+                - button "Play video" [ref=f114e173]
+              - generic:
+                - generic:
+                  - img "Strava logo"
+                - generic:
+                  - heading "Strava" [level=3]
+                  - paragraph: Run, bike, walk
+            - listitem [ref=f114e179]:
+              - link "Apple Watch" [ref=f114e180] [cursor=pointer]:
+                - /url: /apps/apple-watch-ios-d5affeb9-ed0e-4c36-8e80-cd08a6bed4ba/effde119-f664-48b0-a60e-979713a7855b/screens
+              - link [ref=f114e181] [cursor=pointer]:
+                - /url: /apps/apple-watch-ios-d5affeb9-ed0e-4c36-8e80-cd08a6bed4ba/effde119-f664-48b0-a60e-979713a7855b/screens
+                - list [ref=f114e182]:
+                  - listitem [ref=f114e183]:
+                    - img "Apple Watch screen" [ref=f114e184]
+                  - listitem [ref=f114e185]:
+                    - img "Apple Watch screen" [ref=f114e186]
+                  - listitem [ref=f114e187]:
+                    - img "Apple Watch screen" [ref=f114e188]
+                  - listitem [ref=f114e189]:
+                    - img "Apple Watch screen" [ref=f114e190]
+                - button "Next" [ref=f114e192]
+              - generic:
+                - generic:
+                  - img "Apple Watch logo"
+                - generic:
+                  - heading "Apple Watch" [level=3]
+                  - paragraph: The future is on your wrist
+            - listitem [ref=f114e196]:
+              - link "Breathwrk" [ref=f114e197] [cursor=pointer]:
+                - /url: /apps/breathwrk-ios-3107d716-8d07-4962-b6ec-29eb360653a1/c1143163-c56e-47be-a155-075e1fdbcd5c/screens
+              - link [ref=f114e198] [cursor=pointer]:
+                - /url: /apps/breathwrk-ios-3107d716-8d07-4962-b6ec-29eb360653a1/c1143163-c56e-47be-a155-075e1fdbcd5c/screens
+                - button "Play video" [ref=f114e203]
+              - generic:
+                - generic:
+                  - img "Breathwrk logo"
+                - generic:
+                  - heading "Breathwrk" [level=3]
+                  - paragraph: Breathing exercises
+            - listitem [ref=f114e209]:
+              - link "Superpower" [ref=f114e210] [cursor=pointer]:
+                - /url: /apps/superpower-ios-f3a6383d-a99a-4276-a216-7e4ac0528557/903a2c06-c57f-474a-9e8b-d27af3d1033c/screens
+              - link [ref=f114e211] [cursor=pointer]:
+                - /url: /apps/superpower-ios-f3a6383d-a99a-4276-a216-7e4ac0528557/903a2c06-c57f-474a-9e8b-d27af3d1033c/screens
+                - list [ref=f114e212]:
+                  - listitem [ref=f114e213]:
+                    - img "Superpower screen" [ref=f114e214]
+                  - listitem [ref=f114e215]:
+                    - img "Superpower screen" [ref=f114e216]
+                  - listitem [ref=f114e217]:
+                    - img "Superpower screen" [ref=f114e218]
+                  - listitem [ref=f114e219]:
+                    - img "Superpower screen" [ref=f114e220]
+                - button "Next" [ref=f114e222]
+              - generic:
+                - generic:
+                  - img "Superpower logo"
+                - generic:
+                  - heading "Superpower" [level=3]
+                  - paragraph: Your home for health
+            - listitem [ref=f114e226]:
+              - link "Journal" [ref=f114e227] [cursor=pointer]:
+                - /url: /apps/journal-ios-9819c592-b411-4cfa-a5bb-0a2bd90d52e8/90df7547-440b-4c6d-9257-9eb7fda8502b/screens
+              - link [ref=f114e228] [cursor=pointer]:
+                - /url: /apps/journal-ios-9819c592-b411-4cfa-a5bb-0a2bd90d52e8/90df7547-440b-4c6d-9257-9eb7fda8502b/screens
+                - list [ref=f114e229]:
+                  - listitem [ref=f114e230]:
+                    - img "Journal screen" [ref=f114e231]
+                  - listitem [ref=f114e232]:
+                    - img "Journal screen" [ref=f114e233]
+                  - listitem [ref=f114e234]:
+                    - img "Journal screen" [ref=f114e235]
+                  - listitem [ref=f114e236]:
+                    - img "Journal screen" [ref=f114e237]
+                - button "Next" [ref=f114e239]
+              - generic:
+                - generic:
+                  - img "Journal logo"
+                - generic:
+                  - heading "Journal" [level=3]
+                  - paragraph: Reflect on life's moments
+  - region "Notifications alt+T"
+  - generic:
+    - button "Scroll to top"

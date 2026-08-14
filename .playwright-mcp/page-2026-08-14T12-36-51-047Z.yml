@@ -1,0 +1,369 @@
+- generic [active] [ref=f107e1]:
+  - alert [ref=f107e2]
+  - generic [ref=f107e3]:
+    - banner [ref=f107e4]:
+      - navigation "Main" [ref=f107e5]:
+        - generic [ref=f107e7]:
+          - generic [ref=f107e8]:
+            - link "Mobbin" [ref=f107e9] [cursor=pointer]:
+              - /url: /discover/apps/ios/latest
+              - img "Mobbin"
+            - generic [ref=f107e11]:
+              - link "Apps" [ref=f107e13] [cursor=pointer]:
+                - /url: /discover/apps/ios/latest
+              - link "Sites" [ref=f107e14] [cursor=pointer]:
+                - /url: /discover/sites/latest
+          - generic [ref=f107e16]:
+            - button "Search on iOS..." [ref=f107e17] [cursor=pointer]
+            - button "Visual search" [ref=f107e23] [cursor=pointer]
+          - generic [ref=f107e31]:
+            - generic [ref=f107e32]:
+              - link "Saved" [ref=f107e36] [cursor=pointer]:
+                - /url: /saved/mobile/screens
+              - link "Community" [ref=f107e41] [cursor=pointer]:
+                - /url: /community/mobile/featured
+              - button "Notifications" [ref=f107e45] [cursor=pointer]
+            - button "Get Pro" [ref=f107e50] [cursor=pointer]
+            - button "Menu" [ref=f107e53] [cursor=pointer]:
+              - img "Avatar of zhaolvs" [ref=f107e56]
+    - main [ref=f107e57]:
+      - generic [ref=f107e58]:
+        - generic [ref=f107e59]:
+          - generic [ref=f107e60]:
+            - button [ref=f107e61] [cursor=pointer]:
+              - heading "Categories" [level=3] [ref=f107e62]
+            - list [ref=f107e65]:
+              - listitem [ref=f107e66]:
+                - link "AI" [ref=f107e67] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.AI
+              - listitem [ref=f107e68]:
+                - link "Lifestyle" [ref=f107e69] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Lifestyle
+              - listitem [ref=f107e70]:
+                - link "Business" [ref=f107e71] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Business
+              - listitem [ref=f107e72]:
+                - link "Health & Fitness" [ref=f107e73] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Health+%26+Fitness
+              - listitem [ref=f107e74]:
+                - link "Finance" [ref=f107e75] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Finance
+          - generic [ref=f107e76]:
+            - button [ref=f107e77] [cursor=pointer]:
+              - heading "Screens" [level=3] [ref=f107e78]
+            - list [ref=f107e81]:
+              - listitem [ref=f107e82]:
+                - link "Welcome & Get Started" [ref=f107e83] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=screens&sort=popularity&filter=screenPatterns.Welcome+%26+Get+Started
+              - listitem [ref=f107e84]:
+                - link "Home" [ref=f107e85] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=screens&sort=popularity&filter=screenPatterns.Home
+              - listitem [ref=f107e86]:
+                - link "My Account & Profile" [ref=f107e87] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=screens&sort=popularity&filter=screenPatterns.My+Account+%26+Profile
+              - listitem [ref=f107e88]:
+                - link "Filter & Sort" [ref=f107e89] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=screens&sort=popularity&filter=screenPatterns.Filter+%26+Sort
+              - listitem [ref=f107e90]:
+                - link "Dashboard" [ref=f107e91] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=screens&sort=popularity&filter=screenPatterns.Dashboard
+          - generic [ref=f107e92]:
+            - button [ref=f107e93] [cursor=pointer]:
+              - heading "UI Elements" [level=3] [ref=f107e94]
+            - list [ref=f107e97]:
+              - listitem [ref=f107e98]:
+                - link "Stacked List" [ref=f107e99] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=ui-elements&sort=popularity&filter=screenElements.Stacked+List
+              - listitem [ref=f107e100]:
+                - link "Dropdown Menu" [ref=f107e101] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=ui-elements&sort=popularity&filter=screenElements.Dropdown+Menu
+              - listitem [ref=f107e102]:
+                - link "Card" [ref=f107e103] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=ui-elements&sort=popularity&filter=screenElements.Card
+              - listitem [ref=f107e104]:
+                - link "Banner" [ref=f107e105] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=ui-elements&sort=popularity&filter=screenElements.Banner
+              - listitem [ref=f107e106]:
+                - link "Table" [ref=f107e107] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=ui-elements&sort=popularity&filter=screenElements.Table
+          - generic [ref=f107e108]:
+            - button [ref=f107e109] [cursor=pointer]:
+              - heading "Flows" [level=3] [ref=f107e110]
+            - list [ref=f107e113]:
+              - listitem [ref=f107e114]:
+                - link "Subscribing & Upgrading" [ref=f107e115] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=flows&sort=popularity&filter=flowActions.Subscribing+%26+Upgrading
+              - listitem [ref=f107e116]:
+                - link "Chatting & Sending Messages" [ref=f107e117] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=flows&sort=popularity&filter=flowActions.Chatting+%26+Sending+Messages
+              - listitem [ref=f107e118]:
+                - link "Browsing Tutorial" [ref=f107e119] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=flows&sort=popularity&filter=flowActions.Browsing+Tutorial
+              - listitem [ref=f107e120]:
+                - link "Creating Account" [ref=f107e121] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=flows&sort=popularity&filter=flowActions.Creating+Account
+              - listitem [ref=f107e122]:
+                - link "Onboarding" [ref=f107e123] [cursor=pointer]:
+                  - /url: /search/apps/ios?content_type=flows&sort=popularity&filter=flowActions.Onboarding
+        - generic [ref=f107e124]:
+          - generic [ref=f107e126]:
+            - generic [ref=f107e127]:
+              - radiogroup [ref=f107e129]:
+                - radio "iOS" [checked] [ref=f107e130] [cursor=pointer]
+                - radio "Web" [ref=f107e132] [cursor=pointer]
+              - generic [ref=f107e137]:
+                - link "Latest" [ref=f107e138] [cursor=pointer]:
+                  - /url: /discover/apps/ios/latest
+                - link "Most popular" [ref=f107e139] [cursor=pointer]:
+                  - /url: /discover/apps/ios/popular
+                - link "Top rated" [ref=f107e140] [cursor=pointer]:
+                  - /url: /discover/apps/ios/top
+                - link "Animations" [ref=f107e141] [cursor=pointer]:
+                  - /url: /discover/apps/ios/animations
+            - button "Filter" [ref=f107e143] [cursor=pointer]
+          - complementary [ref=f107e149]:
+            - generic [ref=f107e150]:
+              - generic [ref=f107e151]: PRO
+              - generic [ref=f107e152]:
+                - text: Upgrade for full access beyond the 4 latest apps —
+                - button "Get Pro" [ref=f107e153] [cursor=pointer]
+          - generic [ref=f107e155]:
+            - list [ref=f107e157]:
+              - listitem [ref=f107e158]:
+                - link "SoFi" [ref=f107e159] [cursor=pointer]:
+                  - /url: /apps/so-fi-ios-e5ace6c4-9d37-459a-a147-ac4ca78270d6/78e21ef7-c8ed-4f5c-8ac7-e05dcd362eeb/screens
+                - link [ref=f107e160] [cursor=pointer]:
+                  - /url: /apps/so-fi-ios-e5ace6c4-9d37-459a-a147-ac4ca78270d6/78e21ef7-c8ed-4f5c-8ac7-e05dcd362eeb/screens
+                  - list [ref=f107e161]:
+                    - listitem [ref=f107e162]:
+                      - img "SoFi screen" [ref=f107e163]
+                    - listitem [ref=f107e164]:
+                      - img "SoFi screen" [ref=f107e165]
+                    - listitem [ref=f107e166]:
+                      - img "SoFi screen" [ref=f107e167]
+                    - listitem [ref=f107e168]:
+                      - img "SoFi screen" [ref=f107e169]
+                  - button "Next" [ref=f107e171]
+                  - generic: New
+                - generic:
+                  - generic:
+                    - img "SoFi logo"
+                  - generic:
+                    - heading "SoFi" [level=3]
+                    - paragraph: Bank, invest, & crypto
+              - listitem [ref=f107e175]:
+                - link "Oura" [ref=f107e176] [cursor=pointer]:
+                  - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/screens
+                - link [ref=f107e177] [cursor=pointer]:
+                  - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/screens
+                  - list [ref=f107e178]:
+                    - listitem [ref=f107e179]:
+                      - img "Oura screen" [ref=f107e180]
+                    - listitem [ref=f107e181]:
+                      - img "Oura screen" [ref=f107e182]
+                    - listitem [ref=f107e183]:
+                      - img "Oura screen" [ref=f107e184]
+                    - listitem [ref=f107e185]:
+                      - img "Oura screen" [ref=f107e186]
+                  - button "Next" [ref=f107e188]
+                  - generic: Updated
+                - generic:
+                  - generic:
+                    - img "Oura logo"
+                  - generic:
+                    - heading "Oura" [level=3]
+                    - paragraph: Smart ring for fitness, stress, sleep & health
+              - listitem [ref=f107e192]:
+                - link "Starling" [ref=f107e193] [cursor=pointer]:
+                  - /url: /apps/starling-ios-90f4b622-be6c-4cec-827b-6e590067e52c/7457d8d3-d5c4-4bbd-9a81-57799e46ab99/screens
+                - link [ref=f107e194] [cursor=pointer]:
+                  - /url: /apps/starling-ios-90f4b622-be6c-4cec-827b-6e590067e52c/7457d8d3-d5c4-4bbd-9a81-57799e46ab99/screens
+                  - list [ref=f107e195]:
+                    - listitem [ref=f107e196]:
+                      - img "Starling screen" [ref=f107e197]
+                    - listitem [ref=f107e198]:
+                      - img "Starling screen" [ref=f107e199]
+                    - listitem [ref=f107e200]:
+                      - img "Starling screen" [ref=f107e201]
+                    - listitem [ref=f107e202]:
+                      - img "Starling screen" [ref=f107e203]
+                  - button "Next" [ref=f107e205]
+                  - generic: Updated
+                - generic:
+                  - generic:
+                    - img "Starling logo"
+                  - generic:
+                    - heading "Starling" [level=3]
+                    - paragraph: Good with money
+              - listitem [ref=f107e209]:
+                - link "Flighty" [ref=f107e210] [cursor=pointer]:
+                  - /url: /apps/flighty-ios-e6531374-23b5-4b62-9e1c-5ec41d351780/812571a1-c341-471e-9dc4-26b0fa92720a/screens
+                - link [ref=f107e211] [cursor=pointer]:
+                  - /url: /apps/flighty-ios-e6531374-23b5-4b62-9e1c-5ec41d351780/812571a1-c341-471e-9dc4-26b0fa92720a/screens
+                  - button "Pause video" [ref=f107e216]
+                  - generic: Updated
+                - generic:
+                  - generic:
+                    - img "Flighty logo"
+                  - generic:
+                    - heading "Flighty" [level=3]
+                    - paragraph: World's fastest delay alerts
+              - listitem [ref=f107e222]:
+                - link "Bond" [ref=f107e223] [cursor=pointer]:
+                  - /url: /apps/bond-ios-493d35fb-4542-4437-a1a8-f4a34dc84a5f/cde6826b-5931-46e7-85b1-ed9e59061d89/screens
+                - link [ref=f107e224] [cursor=pointer]:
+                  - /url: /apps/bond-ios-493d35fb-4542-4437-a1a8-f4a34dc84a5f/cde6826b-5931-46e7-85b1-ed9e59061d89/screens
+                  - list [ref=f107e225]:
+                    - listitem [ref=f107e226]:
+                      - img "Bond screen" [ref=f107e227]
+                    - listitem [ref=f107e228]:
+                      - img "Bond screen" [ref=f107e229]
+                    - listitem [ref=f107e230]:
+                      - img "Bond screen" [ref=f107e231]
+                    - listitem [ref=f107e232]:
+                      - img "Bond screen" [ref=f107e233]
+                  - button "Next" [ref=f107e235]
+                  - generic: New
+                - generic:
+                  - generic:
+                    - img "Bond logo"
+                  - generic:
+                    - heading "Bond" [level=3]
+                    - paragraph: Turn memories into discoveries
+              - listitem [ref=f107e239]:
+                - link "Posh" [ref=f107e240] [cursor=pointer]:
+                  - /url: /apps/posh-ios-b0aef81a-ee71-43c3-a4cd-c97ef31ceed9/8299b130-b3a7-4b96-878d-83e2b927891d/screens
+                - link [ref=f107e241] [cursor=pointer]:
+                  - /url: /apps/posh-ios-b0aef81a-ee71-43c3-a4cd-c97ef31ceed9/8299b130-b3a7-4b96-878d-83e2b927891d/screens
+                  - list [ref=f107e242]:
+                    - listitem [ref=f107e243]:
+                      - img "Posh screen" [ref=f107e244]
+                    - listitem [ref=f107e245]:
+                      - img "Posh screen" [ref=f107e246]
+                    - listitem [ref=f107e247]:
+                      - img "Posh screen" [ref=f107e248]
+                    - listitem [ref=f107e249]:
+                      - img "Posh screen" [ref=f107e250]
+                  - button "Next" [ref=f107e252]
+                  - generic: New
+                - generic:
+                  - generic:
+                    - img "Posh logo"
+                  - generic:
+                    - heading "Posh" [level=3]
+                    - paragraph: Create & find events
+              - listitem [ref=f107e256]:
+                - link "Yubo" [ref=f107e257] [cursor=pointer]:
+                  - /url: /apps/yubo-ios-a91a4f72-e0a7-4d71-ab90-fbe9a6545a93/cd52b800-aa11-446c-8bb8-822dca37ece4/screens
+                - link [ref=f107e258] [cursor=pointer]:
+                  - /url: /apps/yubo-ios-a91a4f72-e0a7-4d71-ab90-fbe9a6545a93/cd52b800-aa11-446c-8bb8-822dca37ece4/screens
+                  - list [ref=f107e259]:
+                    - listitem [ref=f107e260]:
+                      - img "Yubo screen" [ref=f107e261]
+                    - listitem [ref=f107e262]:
+                      - img "Yubo screen" [ref=f107e263]
+                    - listitem [ref=f107e264]:
+                      - img "Yubo screen" [ref=f107e265]
+                    - listitem [ref=f107e266]:
+                      - img "Yubo screen" [ref=f107e267]
+                  - button "Next" [ref=f107e269]
+                  - generic: Updated
+                - generic:
+                  - generic:
+                    - img "Yubo logo"
+                  - generic:
+                    - heading "Yubo" [level=3]
+                    - paragraph: Match text talk. Be real now
+              - listitem [ref=f107e273]:
+                - link "Fiverr" [ref=f107e274] [cursor=pointer]:
+                  - /url: /apps/fiverr-ios-f882792a-7ed6-4513-9279-87b8fd366fbb/59ebd3d7-3069-43ed-8ae5-b56684e6f112/screens
+                - link [ref=f107e275] [cursor=pointer]:
+                  - /url: /apps/fiverr-ios-f882792a-7ed6-4513-9279-87b8fd366fbb/59ebd3d7-3069-43ed-8ae5-b56684e6f112/screens
+                  - list [ref=f107e276]:
+                    - listitem [ref=f107e277]:
+                      - img "Fiverr screen" [ref=f107e278]
+                    - listitem [ref=f107e279]:
+                      - img "Fiverr screen" [ref=f107e280]
+                    - listitem [ref=f107e281]:
+                      - img "Fiverr screen" [ref=f107e282]
+                    - listitem [ref=f107e283]:
+                      - img "Fiverr screen" [ref=f107e284]
+                  - button "Next" [ref=f107e286]
+                  - generic: Updated
+                - generic:
+                  - generic:
+                    - img "Fiverr logo"
+                  - generic:
+                    - heading "Fiverr" [level=3]
+                    - paragraph: Freelance services
+              - listitem [ref=f107e290]:
+                - link "Sesame" [ref=f107e291] [cursor=pointer]:
+                  - /url: /apps/sesame-ios-08054121-29ee-4708-86b4-6c3cdfb79478/a192b5b3-dd88-4296-abc8-8e34640379a6/screens
+                - link [ref=f107e292] [cursor=pointer]:
+                  - /url: /apps/sesame-ios-08054121-29ee-4708-86b4-6c3cdfb79478/a192b5b3-dd88-4296-abc8-8e34640379a6/screens
+                  - button "Play video" [ref=f107e297]
+                  - generic: New
+                - generic:
+                  - generic:
+                    - img "Sesame logo"
+                  - generic:
+                    - heading "Sesame" [level=3]
+                    - paragraph: Crafted for conversation
+              - listitem [ref=f107e303]:
+                - link "Qonto" [ref=f107e304] [cursor=pointer]:
+                  - /url: /apps/qonto-ios-18c62d02-43d1-42ac-a566-18a60bb0d7fa/47fb6254-71a7-4824-8676-1fbc778d993e/screens
+                - link [ref=f107e305] [cursor=pointer]:
+                  - /url: /apps/qonto-ios-18c62d02-43d1-42ac-a566-18a60bb0d7fa/47fb6254-71a7-4824-8676-1fbc778d993e/screens
+                  - list [ref=f107e306]:
+                    - listitem [ref=f107e307]:
+                      - img "Qonto screen" [ref=f107e308]
+                    - listitem [ref=f107e309]:
+                      - img "Qonto screen" [ref=f107e310]
+                    - listitem [ref=f107e311]:
+                      - img "Qonto screen" [ref=f107e312]
+                    - listitem [ref=f107e313]:
+                      - img "Qonto screen" [ref=f107e314]
+                  - button "Next" [ref=f107e316]
+                - generic:
+                  - generic:
+                    - img "Qonto logo"
+                  - generic:
+                    - heading "Qonto" [level=3]
+                    - paragraph: All-in-one business account
+              - listitem [ref=f107e320]:
+                - link "Monzo" [ref=f107e321] [cursor=pointer]:
+                  - /url: /apps/monzo-ios-f6915aea-cb42-474d-99f2-066d3177949a/ccc5ff24-f952-4059-8421-67eaa921f7b0/screens
+                - link [ref=f107e322] [cursor=pointer]:
+                  - /url: /apps/monzo-ios-f6915aea-cb42-474d-99f2-066d3177949a/ccc5ff24-f952-4059-8421-67eaa921f7b0/screens
+                  - list [ref=f107e323]:
+                    - listitem [ref=f107e324]:
+                      - img "Monzo screen" [ref=f107e325]
+                    - listitem [ref=f107e326]:
+                      - img "Monzo screen" [ref=f107e327]
+                    - listitem [ref=f107e328]:
+                      - img "Monzo screen" [ref=f107e329]
+                    - listitem [ref=f107e330]:
+                      - img "Monzo screen" [ref=f107e331]
+                  - button "Next" [ref=f107e333]
+                - generic:
+                  - generic:
+                    - img "Monzo logo"
+                  - generic:
+                    - heading "Monzo" [level=3]
+                    - paragraph: Personal & business banking
+              - listitem [ref=f107e337]:
+                - link "Opal" [ref=f107e338] [cursor=pointer]:
+                  - /url: /apps/opal-ios-3cd5ac67-b82e-481c-b1fb-6c817ac87321/5e028b5d-803b-4bdc-a0dd-568f9e3e5b55/screens
+                - link [ref=f107e339] [cursor=pointer]:
+                  - /url: /apps/opal-ios-3cd5ac67-b82e-481c-b1fb-6c817ac87321/5e028b5d-803b-4bdc-a0dd-568f9e3e5b55/screens
+                  - button "Play video" [ref=f107e344]
+                - generic:
+                  - generic:
+                    - img "Opal logo"
+                  - generic:
+                    - heading "Opal" [level=3]
+                    - paragraph: Focus, app blocker & timer
+            - img "Dots loading indicator" [ref=f107e351]
+  - region "Notifications alt+T"
+  - generic:
+    - button "Scroll to top"

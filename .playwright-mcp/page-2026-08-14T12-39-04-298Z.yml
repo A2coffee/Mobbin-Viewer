@@ -1,0 +1,441 @@
+- generic [active] [ref=f107e1]:
+  - alert [ref=f107e2]: Oura iOS | Mobbin
+  - generic [ref=f107e3]:
+    - banner [ref=f107e4]:
+      - navigation "Main" [ref=f107e5]:
+        - generic [ref=f107e7]:
+          - generic [ref=f107e8]:
+            - link "Mobbin" [ref=f107e9] [cursor=pointer]:
+              - /url: /discover/apps/ios/latest
+              - img "Mobbin"
+            - generic [ref=f107e11]:
+              - link "Apps" [ref=f107e13] [cursor=pointer]:
+                - /url: /discover/apps/ios/latest
+              - link "Sites" [ref=f107e14] [cursor=pointer]:
+                - /url: /discover/sites/latest
+          - generic [ref=f107e16]:
+            - button "Search on iOS..." [ref=f107e17] [cursor=pointer]
+            - button "Visual search" [ref=f107e23] [cursor=pointer]
+          - generic [ref=f107e31]:
+            - generic [ref=f107e32]:
+              - link "Saved" [ref=f107e36] [cursor=pointer]:
+                - /url: /saved/mobile/screens
+              - link "Community" [ref=f107e41] [cursor=pointer]:
+                - /url: /community/mobile/featured
+              - button "Notifications" [ref=f107e45] [cursor=pointer]
+            - button "Get Pro" [ref=f107e50] [cursor=pointer]
+            - button "Menu" [ref=f107e53] [cursor=pointer]:
+              - img "Avatar of zhaolvs" [ref=f107e56]
+    - main [ref=f107e57]:
+      - generic [ref=f107e357]:
+        - generic [ref=f107e358]:
+          - generic [ref=f107e359]:
+            - img "Oura logo" [ref=f107e363]
+            - heading "Oura — Smart ring for fitness, stress, sleep & health" [level=1] [ref=f107e364]:
+              - text: Oura
+              - generic [ref=f107e365]:
+                - text: —
+                - generic [ref=f107e366]: Smart ring for fitness, stress, sleep & health
+            - complementary [ref=f107e367]:
+              - generic [ref=f107e368]:
+                - generic [ref=f107e369]: PRO
+                - generic [ref=f107e370]:
+                  - text: Upgrade for full access to Oura and 1,000 other apps and sites —
+                  - button "Get Pro" [ref=f107e371] [cursor=pointer]
+            - generic [ref=f107e372]:
+              - generic [ref=f107e373]:
+                - paragraph [ref=f107e374]: Platform
+                - generic [ref=f107e375]:
+                  - link "iOS" [ref=f107e376] [cursor=pointer]:
+                    - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/_/screens
+                  - text: ","
+                  - link "Android" [ref=f107e377] [cursor=pointer]:
+                    - /url: /apps/oura-android-de2301f2-7120-4098-96d7-b074a8a9a5e7/_/screens
+              - generic [ref=f107e378]:
+                - paragraph [ref=f107e379]: Rating
+                - button [ref=f107e380] [cursor=pointer]
+              - generic [ref=f107e392]:
+                - paragraph [ref=f107e393]: Category
+                - list [ref=f107e395]:
+                  - listitem [ref=f107e396]:
+                    - link "Health & Fitness" [ref=f107e397] [cursor=pointer]:
+                      - /url: /search/apps/ios?content_type=apps&sort=popularity&filter=appCategories.Health+%26+Fitness
+            - generic [ref=f107e398]:
+              - button "Save" [ref=f107e400] [cursor=pointer]
+              - button "More actions" [ref=f107e404] [cursor=pointer]
+          - generic [ref=f107e410]:
+            - generic [ref=f107e411]:
+              - button "Latest" [ref=f107e414] [cursor=pointer]
+              - generic [ref=f107e419]:
+                - generic [ref=f107e422]:
+                  - link "Screens" [ref=f107e423] [cursor=pointer]:
+                    - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/screens
+                  - link "UI Elements" [ref=f107e424] [cursor=pointer]:
+                    - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/ui-elements
+                  - link "Flows" [ref=f107e425] [cursor=pointer]:
+                    - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows
+                - generic [ref=f107e427]:
+                  - button "Filter" [ref=f107e429] [cursor=pointer]: Screens
+                  - button [ref=f107e434] [cursor=pointer]
+                  - button "Filter" [ref=f107e439] [cursor=pointer]
+                - generic [ref=f107e444]:
+                  - generic [ref=f107e445]: Showing
+                  - generic [ref=f107e446]: 679 screens
+            - generic [ref=f107e449]:
+              - list [ref=f107e451]:
+                - listitem [ref=f107e452]:
+                  - generic [ref=f107e453]:
+                    - link "Oura screen" [ref=f107e454] [cursor=pointer]:
+                      - /url: /screens/11e3c10d-cdb8-41d7-a136-822aa8070aed
+                      - img "Oura screen" [ref=f107e455]
+                    - generic [ref=f107e456]: Highlight
+                    - button [ref=f107e459] [cursor=pointer]
+                    - button [ref=f107e462] [cursor=pointer]
+                    - generic [ref=f107e468]:
+                      - button "Save" [ref=f107e469] [cursor=pointer]
+                      - button "Copy" [ref=f107e473] [cursor=pointer]
+                - listitem [ref=f107e476]:
+                  - generic [ref=f107e477]:
+                    - link "Oura screen" [ref=f107e478] [cursor=pointer]:
+                      - /url: /screens/ee540c34-150a-42cb-8b09-b40b63c4681e
+                    - generic [ref=f107e481]: Highlight
+                    - button [ref=f107e484] [cursor=pointer]
+                    - button [ref=f107e487] [cursor=pointer]
+                    - generic [ref=f107e493]:
+                      - button "Save" [ref=f107e494] [cursor=pointer]
+                      - button "Copy" [ref=f107e498] [cursor=pointer]
+                - listitem [ref=f107e501]:
+                  - generic [ref=f107e502]:
+                    - link "Oura screen" [ref=f107e503] [cursor=pointer]:
+                      - /url: /screens/62a1e053-13a7-482e-a430-f1a7d49e04a6
+                      - img "Oura screen" [ref=f107e504]
+                    - generic [ref=f107e505]: Highlight
+                    - button [ref=f107e508] [cursor=pointer]
+                    - button [ref=f107e511] [cursor=pointer]
+                    - generic [ref=f107e517]:
+                      - button "Save" [ref=f107e518] [cursor=pointer]
+                      - button "Copy" [ref=f107e522] [cursor=pointer]
+                - listitem [ref=f107e525]:
+                  - generic [ref=f107e526]:
+                    - link "Oura screen" [ref=f107e527] [cursor=pointer]:
+                      - /url: /screens/0b16f336-ce06-427f-b32c-108202d8149c
+                      - img "Oura screen" [ref=f107e528]
+                    - generic [ref=f107e529]: Highlight
+                    - button [ref=f107e532] [cursor=pointer]
+                    - button [ref=f107e535] [cursor=pointer]
+                    - generic [ref=f107e541]:
+                      - button "Save" [ref=f107e542] [cursor=pointer]
+                      - button "Copy" [ref=f107e546] [cursor=pointer]
+                - listitem [ref=f107e549]:
+                  - generic [ref=f107e550]:
+                    - link "Oura screen" [ref=f107e551] [cursor=pointer]:
+                      - /url: /screens/1881d8d9-7b6a-4b94-ace8-53ed3549453c
+                      - img "Oura screen" [ref=f107e552]
+                    - generic [ref=f107e553]: Highlight
+                    - button [ref=f107e556] [cursor=pointer]
+                    - button [ref=f107e559] [cursor=pointer]
+                    - generic [ref=f107e565]:
+                      - button "Save" [ref=f107e566] [cursor=pointer]
+                      - button "Copy" [ref=f107e570] [cursor=pointer]
+                - listitem [ref=f107e573]:
+                  - generic [ref=f107e574]:
+                    - link "Oura screen" [ref=f107e575] [cursor=pointer]:
+                      - /url: /screens/d3d40cc5-94dc-4a21-a60c-b2bfa2493ea9
+                      - img "Oura screen" [ref=f107e576]
+                    - generic [ref=f107e577]: Highlight
+                    - button [ref=f107e580] [cursor=pointer]
+                    - button [ref=f107e583] [cursor=pointer]
+                    - generic [ref=f107e589]:
+                      - button "Save" [ref=f107e590] [cursor=pointer]
+                      - button "Copy" [ref=f107e594] [cursor=pointer]
+                - listitem [ref=f107e597]:
+                  - generic [ref=f107e598]:
+                    - link "Oura screen" [ref=f107e599] [cursor=pointer]:
+                      - /url: /screens/1e2ed926-bd99-4a38-8c7f-196ba0bd68cd
+                      - img "Oura screen" [ref=f107e600]
+                    - generic [ref=f107e601]: Highlight
+                    - button [ref=f107e604] [cursor=pointer]
+                    - button [ref=f107e607] [cursor=pointer]
+                    - generic [ref=f107e613]:
+                      - button "Save" [ref=f107e614] [cursor=pointer]
+                      - button "Copy" [ref=f107e618] [cursor=pointer]
+                - listitem [ref=f107e621]:
+                  - generic [ref=f107e622]:
+                    - link "Oura screen" [ref=f107e623] [cursor=pointer]:
+                      - /url: /screens/3a6f5e59-414b-4a03-ace6-45c51f16eac2
+                      - img "Oura screen" [ref=f107e624]
+                    - generic [ref=f107e625]: Highlight
+                    - button [ref=f107e628] [cursor=pointer]
+                    - button [ref=f107e631] [cursor=pointer]
+                    - generic [ref=f107e637]:
+                      - button "Save" [ref=f107e638] [cursor=pointer]
+                      - button "Copy" [ref=f107e642] [cursor=pointer]
+                - listitem [ref=f107e645]:
+                  - generic [ref=f107e646]:
+                    - link "Oura screen" [ref=f107e647] [cursor=pointer]:
+                      - /url: /screens/0cb82298-2c40-4f36-8bfe-f2666cc1d781
+                      - img "Oura screen" [ref=f107e648]
+                    - generic [ref=f107e649]: Highlight
+                    - button [ref=f107e652] [cursor=pointer]
+                    - button [ref=f107e655] [cursor=pointer]
+                    - generic [ref=f107e661]:
+                      - button "Save" [ref=f107e662] [cursor=pointer]
+                      - button "Copy" [ref=f107e666] [cursor=pointer]
+                - listitem [ref=f107e669]:
+                  - generic [ref=f107e670]:
+                    - list [ref=f107e673]:
+                      - listitem [ref=f107e674]:
+                        - img "Onboarding screen" [ref=f107e676]
+                      - listitem [ref=f107e677]:
+                        - img "Onboarding screen" [ref=f107e679]
+                      - listitem [ref=f107e680]:
+                        - img "Onboarding screen" [ref=f107e682]
+                      - listitem [ref=f107e683]:
+                        - img "Onboarding screen" [ref=f107e685]
+                      - listitem [ref=f107e686]:
+                        - img "Onboarding screen" [ref=f107e688]
+                      - listitem [ref=f107e689]:
+                        - img "Onboarding screen" [ref=f107e691]
+                      - listitem [ref=f107e692]
+                    - generic [ref=f107e695]:
+                      - list [ref=f107e696]:
+                        - listitem [ref=f107e697]:
+                          - link "Onboarding" [ref=f107e698] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#2daad675-0e15-482d-87fb-0c59ec00e946
+                        - listitem [ref=f107e699]:
+                          - link "Setting up Oura Advisor" [ref=f107e700] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#beead824-7246-495e-84c2-e193283867a4
+                        - listitem [ref=f107e701]:
+                          - link "Home" [ref=f107e702] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#916e7cc2-ff8a-4f5b-9c79-a6559f13b763
+                        - listitem [ref=f107e703]:
+                          - link "Connecting to Oura Ring" [ref=f107e704] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#6d9deee0-6c57-47ca-8c7a-4348dd396f1e
+                        - listitem [ref=f107e705]:
+                          - link "Syncing Oura Ring" [ref=f107e706] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#d590dd40-df42-4d3b-88d9-6a019fecea34
+                        - listitem [ref=f107e707]:
+                          - link "Subscribing to Oura membership" [ref=f107e708] [cursor=pointer]:
+                            - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows#31b605fe-7d82-4c20-891a-8190f521b28e
+                      - link "See all Flows" [ref=f107e709] [cursor=pointer]:
+                        - /url: /apps/oura-ios-a3164d3a-474c-4ecb-8180-67acda881aa6/601b4b29-6c80-4544-8c4f-28e8c9a8f0bc/flows
+              - generic [ref=f107e712]:
+                - separator [ref=f107e713]
+                - generic [ref=f107e714]: All screens
+                - separator [ref=f107e715]
+              - list [ref=f107e717]:
+                - listitem [ref=f107e718]:
+                  - generic [ref=f107e719]:
+                    - link "Oura screen" [ref=f107e720] [cursor=pointer]:
+                      - /url: /screens/11e3c10d-cdb8-41d7-a136-822aa8070aed
+                      - img "Oura screen" [ref=f107e721]
+                    - button [ref=f107e722] [cursor=pointer]
+                    - button [ref=f107e725] [cursor=pointer]
+                    - generic [ref=f107e731]:
+                      - button "Save" [ref=f107e732] [cursor=pointer]
+                      - button "Copy" [ref=f107e736] [cursor=pointer]
+                - listitem [ref=f107e739]:
+                  - generic [ref=f107e740]:
+                    - link "Oura screen" [ref=f107e741] [cursor=pointer]:
+                      - /url: /screens/d3a8e68c-35c7-4f71-8727-508696a392c1
+                    - button [ref=f107e744] [cursor=pointer]
+                    - button [ref=f107e747] [cursor=pointer]
+                    - generic [ref=f107e753]:
+                      - button "Save" [ref=f107e754] [cursor=pointer]
+                      - button "Copy" [ref=f107e758] [cursor=pointer]
+                - listitem [ref=f107e761]:
+                  - generic [ref=f107e762]:
+                    - link "Oura screen" [ref=f107e763] [cursor=pointer]:
+                      - /url: /screens/c0dac953-90d4-4668-bcad-d6cfa14b7c51
+                      - img "Oura screen" [ref=f107e764]
+                    - button [ref=f107e765] [cursor=pointer]
+                    - button [ref=f107e768] [cursor=pointer]
+                    - generic [ref=f107e774]:
+                      - button "Save" [ref=f107e775] [cursor=pointer]
+                      - button "Copy" [ref=f107e779] [cursor=pointer]
+                - listitem [ref=f107e782]:
+                  - generic [ref=f107e783]:
+                    - link "Oura screen" [ref=f107e784] [cursor=pointer]:
+                      - /url: /screens/19f0af29-c889-406d-810a-8fc717b4100b
+                      - img "Oura screen" [ref=f107e785]
+                    - button [ref=f107e786] [cursor=pointer]
+                    - button [ref=f107e789] [cursor=pointer]
+                    - generic [ref=f107e795]:
+                      - button "Save" [ref=f107e796] [cursor=pointer]
+                      - button "Copy" [ref=f107e800] [cursor=pointer]
+                - listitem [ref=f107e803]:
+                  - generic [ref=f107e804]:
+                    - link "Oura screen" [ref=f107e805] [cursor=pointer]:
+                      - /url: /screens/c2ba9bd9-c483-41bc-be8a-57122e008908
+                      - img "Oura screen" [ref=f107e806]
+                    - button [ref=f107e807] [cursor=pointer]
+                    - button [ref=f107e810] [cursor=pointer]
+                    - generic [ref=f107e816]:
+                      - button "Save" [ref=f107e817] [cursor=pointer]
+                      - button "Copy" [ref=f107e821] [cursor=pointer]
+                - listitem [ref=f107e824]:
+                  - generic [ref=f107e825]:
+                    - link "Oura screen" [ref=f107e826] [cursor=pointer]:
+                      - /url: /screens/45671325-5508-4286-8d92-6e5ab6e45601
+                      - img "Oura screen" [ref=f107e827]
+                    - button [ref=f107e828] [cursor=pointer]
+                    - button [ref=f107e831] [cursor=pointer]
+                    - generic [ref=f107e837]:
+                      - button "Save" [ref=f107e838] [cursor=pointer]
+                      - button "Copy" [ref=f107e842] [cursor=pointer]
+                - listitem [ref=f107e845]:
+                  - generic [ref=f107e846]:
+                    - link "Oura screen" [ref=f107e847] [cursor=pointer]:
+                      - /url: /screens/013bc4ae-a9e4-4856-9dd0-9068ffbd2ca7
+                      - img "Oura screen" [ref=f107e848]
+                    - button [ref=f107e849] [cursor=pointer]
+                    - button [ref=f107e852] [cursor=pointer]
+                    - generic [ref=f107e858]:
+                      - button "Save" [ref=f107e859] [cursor=pointer]
+                      - button "Copy" [ref=f107e863] [cursor=pointer]
+                - listitem [ref=f107e866]:
+                  - generic [ref=f107e867]:
+                    - link "Oura screen" [ref=f107e868] [cursor=pointer]:
+                      - /url: /screens/756c31fd-4f9a-4741-82fa-05eab28dd1f5
+                    - button [ref=f107e871] [cursor=pointer]
+                    - button [ref=f107e874] [cursor=pointer]
+                    - generic [ref=f107e880]:
+                      - button "Save" [ref=f107e881] [cursor=pointer]
+                      - button "Copy" [ref=f107e885] [cursor=pointer]
+                - listitem [ref=f107e888]:
+                  - generic [ref=f107e889]:
+                    - link "Oura screen" [ref=f107e890] [cursor=pointer]:
+                      - /url: /screens/cdbe3262-0ede-415f-9f7c-0aef2bb15090
+                      - img "Oura screen" [ref=f107e891]
+                    - button [ref=f107e892] [cursor=pointer]
+                    - button [ref=f107e895] [cursor=pointer]
+                    - generic [ref=f107e901]:
+                      - button "Save" [ref=f107e902] [cursor=pointer]
+                      - button "Copy" [ref=f107e906] [cursor=pointer]
+                - listitem [ref=f107e909]:
+                  - generic [ref=f107e910]:
+                    - link "Oura screen" [ref=f107e911] [cursor=pointer]:
+                      - /url: /screens/f529277c-9371-4aec-8380-225d82941229
+                      - img "Oura screen" [ref=f107e912]
+                    - button [ref=f107e913] [cursor=pointer]
+                    - button [ref=f107e916] [cursor=pointer]
+                    - generic [ref=f107e922]:
+                      - button "Save" [ref=f107e923] [cursor=pointer]
+                      - button "Copy" [ref=f107e927] [cursor=pointer]
+        - generic [ref=f107e930]:
+          - heading "More like Oura" [level=2] [ref=f107e931]
+          - list [ref=f107e933]:
+            - listitem [ref=f107e934]:
+              - link "pushr" [ref=f107e935] [cursor=pointer]:
+                - /url: /apps/pushr-ios-b9fbf2d1-5e5d-4c38-b77d-2f22efb506be/057a254e-7368-4961-ad06-c5cc18c95928/screens
+              - link [ref=f107e936] [cursor=pointer]:
+                - /url: /apps/pushr-ios-b9fbf2d1-5e5d-4c38-b77d-2f22efb506be/057a254e-7368-4961-ad06-c5cc18c95928/screens
+                - button "Play video" [ref=f107e941]
+              - generic:
+                - generic:
+                  - img "pushr logo"
+                - generic:
+                  - heading "pushr" [level=3]
+                  - paragraph: Push-up workouts
+            - listitem [ref=f107e947]:
+              - link "Strava" [ref=f107e948] [cursor=pointer]:
+                - /url: /apps/strava-ios-1ac190cf-46ee-4c65-845d-38bb8354219d/0581b139-5dc9-492d-89ad-da56951a027b/screens
+              - link [ref=f107e949] [cursor=pointer]:
+                - /url: /apps/strava-ios-1ac190cf-46ee-4c65-845d-38bb8354219d/0581b139-5dc9-492d-89ad-da56951a027b/screens
+                - button "Play video" [ref=f107e954]
+              - generic:
+                - generic:
+                  - img "Strava logo"
+                - generic:
+                  - heading "Strava" [level=3]
+                  - paragraph: Run, bike, walk
+            - listitem [ref=f107e960]:
+              - link "Apple Watch" [ref=f107e961] [cursor=pointer]:
+                - /url: /apps/apple-watch-ios-d5affeb9-ed0e-4c36-8e80-cd08a6bed4ba/effde119-f664-48b0-a60e-979713a7855b/screens
+              - link [ref=f107e962] [cursor=pointer]:
+                - /url: /apps/apple-watch-ios-d5affeb9-ed0e-4c36-8e80-cd08a6bed4ba/effde119-f664-48b0-a60e-979713a7855b/screens
+                - list [ref=f107e963]:
+                  - listitem [ref=f107e964]:
+                    - img "Apple Watch screen" [ref=f107e965]
+                  - listitem [ref=f107e966]:
+                    - img "Apple Watch screen" [ref=f107e967]
+                  - listitem [ref=f107e968]:
+                    - img "Apple Watch screen" [ref=f107e969]
+                  - listitem [ref=f107e970]:
+                    - img "Apple Watch screen" [ref=f107e971]
+                - button "Next" [ref=f107e973]
+              - generic:
+                - generic:
+                  - img "Apple Watch logo"
+                - generic:
+                  - heading "Apple Watch" [level=3]
+                  - paragraph: The future is on your wrist
+            - listitem [ref=f107e977]:
+              - link "Breathwrk" [ref=f107e978] [cursor=pointer]:
+                - /url: /apps/breathwrk-ios-3107d716-8d07-4962-b6ec-29eb360653a1/c1143163-c56e-47be-a155-075e1fdbcd5c/screens
+              - link [ref=f107e979] [cursor=pointer]:
+                - /url: /apps/breathwrk-ios-3107d716-8d07-4962-b6ec-29eb360653a1/c1143163-c56e-47be-a155-075e1fdbcd5c/screens
+                - button "Play video" [ref=f107e984]
+              - generic:
+                - generic:
+                  - img "Breathwrk logo"
+                - generic:
+                  - heading "Breathwrk" [level=3]
+                  - paragraph: Breathing exercises
+            - listitem [ref=f107e990]:
+              - link "Superpower" [ref=f107e991] [cursor=pointer]:
+                - /url: /apps/superpower-ios-f3a6383d-a99a-4276-a216-7e4ac0528557/903a2c06-c57f-474a-9e8b-d27af3d1033c/screens
+              - link [ref=f107e992] [cursor=pointer]:
+                - /url: /apps/superpower-ios-f3a6383d-a99a-4276-a216-7e4ac0528557/903a2c06-c57f-474a-9e8b-d27af3d1033c/screens
+                - list [ref=f107e993]:
+                  - listitem [ref=f107e994]:
+                    - img "Superpower screen" [ref=f107e995]
+                  - listitem [ref=f107e996]:
+                    - img "Superpower screen" [ref=f107e997]
+                  - listitem [ref=f107e998]:
+                    - img "Superpower screen" [ref=f107e999]
+                  - listitem [ref=f107e1000]:
+                    - img "Superpower screen" [ref=f107e1001]
+                - button "Next" [ref=f107e1003]
+              - generic:
+                - generic:
+                  - img "Superpower logo"
+                - generic:
+                  - heading "Superpower" [level=3]
+                  - paragraph: Your home for health
+            - listitem [ref=f107e1007]:
+              - link "Journal" [ref=f107e1008] [cursor=pointer]:
+                - /url: /apps/journal-ios-9819c592-b411-4cfa-a5bb-0a2bd90d52e8/90df7547-440b-4c6d-9257-9eb7fda8502b/screens
+              - link [ref=f107e1009] [cursor=pointer]:
+                - /url: /apps/journal-ios-9819c592-b411-4cfa-a5bb-0a2bd90d52e8/90df7547-440b-4c6d-9257-9eb7fda8502b/screens
+                - list [ref=f107e1010]:
+                  - listitem [ref=f107e1011]:
+                    - img "Journal screen" [ref=f107e1012]
+                  - listitem [ref=f107e1013]:
+                    - img "Journal screen" [ref=f107e1014]
+                  - listitem [ref=f107e1015]:
+                    - img "Journal screen" [ref=f107e1016]
+                  - listitem [ref=f107e1017]:
+                    - img "Journal screen" [ref=f107e1018]
+                - button "Next" [ref=f107e1020]
+              - generic:
+                - generic:
+                  - img "Journal logo"
+                - generic:
+                  - heading "Journal" [level=3]
+                  - paragraph: Reflect on life's moments
+  - region "Notifications alt+T"
+  - generic:
+    - button "Scroll to top"
+  - generic:
+    - generic:
+      - heading "0 selected" [level=2]
+      - generic:
+        - generic:
+          - button "Clear"
+        - generic:
+          - button "Upgrade to download all screens":
+            - generic: PRO
+        - generic:
+          - button "Copy"
+        - button "Save"
