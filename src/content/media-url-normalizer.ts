@@ -39,20 +39,9 @@ export function isMobbinSignedFileRawImage(url: string): boolean {
 }
 
 export function normalizeSignedFileToRawUrl(url: string): string {
-  if (!url || !isMobbinSignedFileImage(url)) {
-    return url;
-  }
-
-  try {
-    const parsed = new URL(url);
-    if (MOBBIN_SIGNED_FILE_IMAGE_PATH_REGEX.test(parsed.pathname)) {
-      parsed.pathname = parsed.pathname.replace('/image/', '/raw/');
-    }
-
-    return parsed.toString();
-  } catch {
-    return url;
-  }
+  // Mobbin has removed the /raw/ endpoint, so we return the /image/ URL as-is
+  // The signed URLs work correctly without conversion
+  return url;
 }
 
 export function isMobbinVideoPoster(url: string): boolean {
